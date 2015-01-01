@@ -1,0 +1,78 @@
+/**
+\page SystemScopeAndContext System Scope and Context
+
+\section BusinessContext Business Context
+
+\section TechnicalContext Technical Context
+
+\section ExternalInterfaces External Interfaces
+ 
+\subsection ExternalInterface1 External Interface 1
+- Interface ID:
+	+ name
+	+ version  
+	+ changes w.r.t previous release
+	+ Who changed it and why?
+	+ Contact person
+
+- Business context of the interface
+
+- Business Processes
+Diagram or desciption of business processes relevant for this interface
+
+- Interface Data
+Description of interface data
+	+ Technical Context
+	+ Form of interaction
+
+
+- Requirements for the Interface
+- Security Aspects
+- Quantities
+	+ Runtime
+	+ Throughput/Volume
+	+ Availability
+	+ Logging
+	+ Archiving
+- Participating Resources
+- Syntax: Data and Formats
+	+ Data Formats
+	+ Validity & Plausibility Rules
+	+ Encoding, Character Sets
+	+ Configuration data
+- Syntax: Methods/Functions
+	+ Check data
+- Interface Process
+Logical and technical processes
+- Semantics
+Side effects, consequences
+- Technical Infrastructure
+Technical protocols
+- Error and Exception Handling
+- Constraints and Assumptions
+	+ Access Rights
+	+ Temporal constraints
+	+ Parallel Access
+	+ Preconditions for using the interface
+- Operating the Interface
+
+- Meta Information for the Interface
+	+ Person in charge
+	+ Costs of using the interface
+	+ Organizational Issues
+	+ Versioning
+- Examples of Using the Interface
+	+ Sample data
+	+ Sample flows and interactions
+	+ Programming Examples
+
+
+\subsection ExternalInterface2 External Interface 2
+
+\subsection ExternalInterface3 External Interface 3
+
+\subsection ExternalInterface4 External Interface 4
+
+
+
+*/

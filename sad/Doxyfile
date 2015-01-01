@@ -1,0 +1,32 @@
+@INCLUDE_PATH = ..
+@INCLUDE = master.doxy
+
+PROJECT_NAME           = "ARC42 Template"
+
+IMAGE_PATH =  images
+
+INPUT	= 	mainpage.txt								\
+			1_IntroductionAndGoals.txt    				\
+			2_ArchitectureConstraints.txt 				\ 
+			3_SystemScopeAndContext.txt		 			\
+			4_SolutionStrategy.txt				 		\
+			5_BuildingBlockView.txt				 		\
+			6_RuntimeView.txt						 	\
+			7_DeploymentView.txt					 	\
+			8_0Concepts.txt								\
+			8_1OperatingSystem.txt						\
+			8_2BaseSystem.txt							\
+			8_3Middleware.txt							\
+			8_4ComponentModel.txt						\
+			8_5StabilityAndReliability.txt				\
+			8_6GUI.txt									\
+			8_7TestAndValidation.txt					\
+			8_8BuildEnvironment.txt						\
+			9_DesignDecisions.txt				 		\
+			10_QualityScenarios.txt			 			\
+			11_TechnicalRisks.txt				  
+												 
+LAYOUT_FILE = DoxygenLayout.xml					 
+
+OUTPUT_DIRECTORY       = build
+

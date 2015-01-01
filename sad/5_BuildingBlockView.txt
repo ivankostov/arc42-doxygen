@@ -1,0 +1,44 @@
+/**
+\page BuildingBlockVeiw Building Block View
+\section BuildingBlockViewLevel1 Level 1
+The following diagram shows the main building blocks of the system and their interdependencies:
+insert overview diagram here
+Comments regarding structure and interdependencies at Level 1:
+
+\subsection BuildingBlockViewLevel1Name1 Building Block Name 1
+insert the building block’s black box template here
+
+\subsection BuildingBlockViewLevel1Name2 Building Block Name 2
+insert the building block’s black box template here
+
+\subsection BuildingBlockViewLevel1Name3 Building Block Name 3
+insert the building block’s black box template here
+
+\subsection BuildingBlockViewLevel1Issues Open Issues
+
+
+\section BuildingBlockViewLevel2 Level 2
+Whitebox description
+
+\subsection BuildingBlockViewLevel2Name1 Building Block Name 1
+Whitebox description
+\subsubsection BuildingBlockViewLevel2Name11 Building Block Name 1.1
+Blackbox description
+\subsubsection BuildingBlockViewLevel2Name12 Building Block Name 1.2
+Blackbox description
+\subsubsection BuildingBlockViewLevel2Name1Relationships Description of Relationships
+\subsubsection BuildingBlockViewLevel2Name1Issues Open Issues
+
+\subsection BuildingBlockViewLevel2Name1 Building Block Name 2
+Whitebox description
+\subsubsection BuildingBlockViewLevel2Name21 Building Block Name 2.1
+Blackbox description
+\subsubsection BuildingBlockViewLevel2Name22 Building Block Name 2.2
+Blackbox description
+\subsubsection BuildingBlockViewLevel2Name2Relationships Description of Relationships
+\subsubsection BuildingBlockViewLevel2Name2Issues Open Issues
+
+
+\section BuildingBlockViewLevel3 Level 3
+
+*/

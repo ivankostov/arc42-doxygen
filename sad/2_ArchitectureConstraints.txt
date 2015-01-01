@@ -1,0 +1,33 @@
+/**
+\page ArchitectureConstraints Architecture Constraints
+
+\section TechnicalConstraints Technical Constraints
+
+\subsection HardwareConstraints Hardware Constraints
+\subsubsection HardwareConstraint1 Hardware Constraint 1
+\subsubsection HardwareConstraint2 Hardware Constraint 2
+\subsubsection HardwareConstraint3 Hardware Constraint 3
+
+\subsection SoftwareConstraints Software Constraints
+\subsubsection SoftwareConstraint1 Software Constraint 1
+\subsubsection SoftwareConstraint2 Software Constraint 2
+\subsubsection SoftwareConstraint3 Software Constraint 3
+
+\subsection OperatingSystemConstraints Operating System Constraints
+\subsubsection OperatingSystemConstraint1 Operating System Constraint 1
+\subsubsection OperatingSystemConstraint2 Operating System Constraint 2
+\subsubsection OperatingSystemConstraint3 Operating System Constraint 3
+
+
+\subsection ProgrammingConstraints Programming Constraints
+\subsubsection ProgrammingConstraint1 Programming Constraint 1
+\subsubsection ProgrammingConstraint2 Programming Constraint 2
+\subsubsection ProgrammingConstraint3 Programming Constraint 3
+
+
+
+\section OrganisationalConstraints Organisational Constraints
+
+\section Conventions Conventions
+
+*/

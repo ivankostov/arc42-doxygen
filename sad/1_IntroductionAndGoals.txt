@@ -1,0 +1,31 @@
+/**
+\page IntroductionAndGoals Introduction and Goals
+
+\section RequirementsOverview Requirements Overview
+The 10 most important user stories ( or epics ).
+
+\section QualityGoals Quality Goals
+
+\subsection QualityGoal1 Goal1 (Prio 1)
+The most important quality qoal.
+
+Measurement:
+- first blackbox test description
+- second blackbox test description
+	 
+\subsection QualityGoal2 Goal2 (Prio 2)
+The next goal.
+If there is a design tradeoff to be made, this goal may be sacrificed first.
+
+Measurement:
+- first blackbox test description
+- second blackbox test description
+
+\section Stakeholders Stakeholders
+
+
+-# \b Management Line Management
+-# <b> Software developer </b>
+-# <b> Hardware developer </b>
+-# <b> Key customers </b> Customer 1, Customer 2, ...
+*/
