@@ -1,0 +1,17 @@
+/**
+\page DomainModels Domain Models
+
+\b Contents
+ 
+Business (or logical) models, domain models - they all describe subject-specific, business aspects, without relation to technology.
+Often these structures or concepts are re-used at many places within an architecture, especially within chapter 5. Building Block View..
+
+\b Motivation
+
+Often parts of these models reappear in the building block view, but in order to „keep them clean from technnology“ they can be captured as a concept. 
+
+\b Form
+
+Usually either ER-Models (Entity-Relationship Models) or UML class diagrams (mainly containing entity classes) are used to document domain models.
+
+*/

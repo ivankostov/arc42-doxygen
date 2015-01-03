@@ -1,11 +1,73 @@
 /**
 \page BuildingBlockVeiw Building Block View
+
+\b Contents
+
+Static decomposition of the system into building blocks (modules, components, subsystems, subsidiary systems, classes, interfaces, packages, libraries, frameworks, layers, partitions, tiers, functions, macros, operations, data structures, …) and the relationships thereof.
+
+\b Motivation
+
+This is the most important view, that must be part of each architecture documentation. In building construction this would be the floor plan.
+
+\b Form
+
+The building block view is a hierarchical collection of black box and white box descriptions as shown in the following diagram:
+
+- Level 1 contains the white box description of the overall system (system under development / SUD) made up of black box descriptions of the system’s building blocks.
+- Level 2 zooms into the building blocks of Level 1 and is thus made up of the white box descriptions of all building blocks of Level 1 together with the black box descriptions of the building blocks of Level 2.
+- Level 3 zooms into the building blocks of Level 2, etc.
+
+The section is structured as follows:
+White Box Template:
+Contains multiple building blocks with corresponding black box descriptions.
+One or more black box templates:
+Each building block appearing in the white box template should be described as follows:
+Purpose / Responsibility:
+Interface(s):
+Implemented requirements:
+Variability: 
+Performance attributes:
+Repository / Files:
+Other administrative information: Author, Version, Date, Revision History 
+Open issues:
+
 \section BuildingBlockViewLevel1 Level 1
+
+Here you describe the white box view of level 1 according to the white box template. The structure is given below.
+The overview diagram describes the inner structure of the overall system in terms of building blocks 1 – n, as well as their relationships and interdependencies.
+It is also useful to list the most important reasons that led to this structure, esp. as relevant to the interdependencies / relationships among the building blocks at this level.
+You should also mention rejected alternatives incl. reasons for their rejection.
+The following diagram shows the main building blocks of the system and their interdependencies:
+<insert overview diagram here>
+
+Comments regarding structure and interdependencies at Level 1:
+
+
+
+
+
+Here you describe the white box view of level 1 according to the white box template.
+The structure is given below.
+The overview diagram describes the inner structure of the overall system in terms of building blocks 1 – n, as well as their relationships and interdependencies.
+It is also useful to list the most important reasons that led to this structure, esp. as relevant to the interdependencies / relationships among the building blocks at this level.
+You should also mention rejected alternatives incl. reasons for their rejection.
+
+
 The following diagram shows the main building blocks of the system and their interdependencies:
 insert overview diagram here
 Comments regarding structure and interdependencies at Level 1:
 
 \subsection BuildingBlockViewLevel1Name1 Building Block Name 1
+
+Structure according to black box template:
+- Purpose / Responsibility:
+- Interface(s):
+- Implemented requirements:
+- Variability: 
+- Performance attributes:
+- Repository / Files:
+- Other administrative information: Author, Version, Date, Revision History 
+- Open issues:
 insert the building block’s black box template here
 
 \subsection BuildingBlockViewLevel1Name2 Building Block Name 2
@@ -18,11 +80,35 @@ insert the building block’s black box template here
 
 
 \section BuildingBlockViewLevel2 Level 2
+Describe all building blocks comprising level 1 as a series of white box templates. 
+The structure is given below for three building blocks and should be duplicated as needed.
+
 Whitebox description
 
 \subsection BuildingBlockViewLevel2Name1 Building Block Name 1
 Whitebox description
+
+Shows the inner workings of the building block in form of a diagrams with local building blocks 1 – n,
+as well as their relationships and interdependencies.
+It is also useful to list the most important reasons that led to this structure, 
+esp. as relevant to the interdependencies / relationships among the building blocks at this level.
+You should also mention rejected alternatives incl. reasons for their rejection.
+
+
 \subsubsection BuildingBlockViewLevel2Name11 Building Block Name 1.1
+Structure according to black box template:
+- Interface(s):
+- Implemented requirements:
+- Variability: 
+- Performance attributes:
+- Repository / Files:
+- Other administrative information: Author, Version, Date, Revision History 
+- Open issues:
+
+
+
+
+
 Blackbox description
 \subsubsection BuildingBlockViewLevel2Name12 Building Block Name 1.2
 Blackbox description
@@ -40,5 +126,11 @@ Blackbox description
 
 
 \section BuildingBlockViewLevel3 Level 3
+
+Describe all building blocks comprising level 2 as a series of white box templates. 
+The structure is identical to the structure of level 2. 
+Duplicate the corresponding sub-sections as needed.
+Simply use this section structure for any additional levels you would like to describe.
+
 
 */

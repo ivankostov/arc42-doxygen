@@ -1,0 +1,7 @@
+/**
+\page Build-Management Build-Management
+
+How is the overall system created from is (source code) building blocks?
+Which repositories contain source code, where are configuration files, test cases, test data and build scripts (make, ant, maven) stored?
+
+*/

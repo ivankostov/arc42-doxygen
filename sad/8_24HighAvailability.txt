@@ -1,0 +1,11 @@
+/**
+\page HighAvailability High Availability
+
+
+How can you achieve high availability of your system? 
+Do you use redundancy of major parts? 
+Or do you distribute your system to different processors or locations. 
+Are you running standby- systems? 
+
+
+*/

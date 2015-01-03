@@ -1,0 +1,9 @@
+/**
+\page Ergonomics Ergonomics 
+
+
+Ergonomics of software systems deals with the improvement (optimization) of their usability with respect to objective and subjective factors. 
+Key ergonomic factors are user interface, reactivity (subjective performance) as well as availability and robustness of the system.
+
+
+*/

@@ -1,0 +1,10 @@
+/**
+\page ParallelizationandThreading Parallelization and Threading
+
+Applications can be executed in parallel processes or threads.
+This creates a need for synchronization points. The theory of parallel processing serves as a foundation for this aspect.
+The architecture and implementation of parallel systems needs to consider many technical details such as address spaces, 
+applied mechanisms for synchronization – guards, semaphores, etc. – processes and threads, parallelism in the operating system, 
+parallelism in virtual machines. etc.
+
+*/

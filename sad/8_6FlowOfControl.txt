@@ -1,0 +1,8 @@
+/**
+\page FlowOfControl Flow Of Control
+
+Flow of control for software systems is related to visible flows (on the - graphical - user interface)
+as well as the flow of background activities. 
+Therefore this section should cover control of the user interface as well as control of workflows.
+
+*/

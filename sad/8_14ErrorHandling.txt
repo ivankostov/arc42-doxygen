@@ -1,0 +1,10 @@
+/**
+\page ErrorHandling Exception/Error Handling
+
+How are exceptions and errors handled systematically and consistently?
+How can the system reach a consistent state after an error? Is this done automatically or is manual interaction required?
+This aspect is also related to logging and tracing,
+Which kind of exceptions and errors are handled by the system? Which kinds of errors are forwarded to which external interface and which are handled fully internally?
+How do you use the exception handling mechanisms of your programming language? Do you use checked or unchecked exceptions?
+
+*/

@@ -1,7 +1,33 @@
 /**
 \page ArchitectureConstraints Architecture Constraints
 
+\b Contents
+
+Any requirement that constrains software architects in their freedom of design decisions or the development process.
+
+\b Motivation
+
+Architects should know exactly where they are free in their design decisions and where they must adhere to constraints.
+Constraints must always be dealt with; they may be negotiable, though.
+
+\b Form
+
+Informal lists, structured by the sub-sections of this section.
+
+\b Examples
+see sub-sections
+
+\b Background Information
+
+In the optimal case constraints are defined by requirements. In any case, at least the architects must be aware of constraints.
+The influence of constraints is described by [Hofmeister et al] (Software Architecture, A Practical Guide, Addison Wesley 1999)  using the term “global analysis”.
+
+
 \section TechnicalConstraints Technical Constraints
+
+List all technical constraints in this section.
+This category covers hard- and software infrastructure, applied technologies (operating systems, middleware, databases, programming languages, …).
+
 
 \subsection HardwareConstraints Hardware Constraints
 \subsubsection HardwareConstraint1 Hardware Constraint 1
@@ -24,10 +50,213 @@
 \subsubsection ProgrammingConstraint2 Programming Constraint 2
 \subsubsection ProgrammingConstraint3 Programming Constraint 3
 
+\b Examples:
+
+<table border="1">
+  <tr>
+    <th>Constraint</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Hardware infrastructure</td>
+    <td>Processors, memory, networks, firewalls and other relevant elements</td>
+  </tr>
+  <tr>
+    <td>Software infrastructure</td>
+    <td>Operating systems, database systems, middleware, communications systems, transaction monitors, web servers, directory services</td>
+  </tr>
+  <tr>
+    <td>System operations</td>
+    <td>Batch- or online operations of the system or of required external systems?</td>
+  </tr>
+  <tr>
+    <td>Availability of the runtime environment</td>
+    <td>Data center with 7x24 uptime?</td>
+  </tr>
+  <tr>
+    <td>Graphical user interface</td>
+    <td>Are there any restrictions related to GUI (style guide)?</td>
+  </tr>
+  <tr>
+    <td>Libraries, frameworks, components</td>
+    <td>Is there any COTS that must be used?</td>
+  </tr>
+  <tr>
+    <td>Programming languages</td>
+    <td>Object oriented, structured, declarative, or rule-based languages? Compiled or interpreted languages?</td>
+  </tr>
+  <tr>
+    <td>Reference architectures</td>
+    <td>Are there any comparable or reusable reference projects in the organization?</td>
+  </tr>
+  <tr>
+    <td>Analysis and design methodologies</td>
+    <td>Object oriented or structured methodologies?</td>
+  </tr>
+  <tr>
+    <td>Data structures</td>
+    <td>Requirements for certain data structures, interfaces to existing databases or files?</td>
+  </tr>
+  <tr>
+    <td>Software interfaces</td>
+    <td>Interfaces to existing applications</td>
+  </tr>
+  <tr>
+    <td>Programming requirements</td>
+    <td>Programming guidelines, fixed program structure</td>
+  </tr>
+  <tr>
+    <td>Technical communications</td>
+    <td>synchronous or asynchronous; protocols</td>
+  </tr>
+
+</table>
 
 
 \section OrganisationalConstraints Organisational Constraints
 
+Enter all organizational, structural, and resource-related constraints.
+This category also covers standards and legal constraints that you must comply with.
+
+<table border="1">
+  <tr>
+    <th>Constraint</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Organization and Structure</td>
+    <td>Sponsor’s organizational structure. Potential changes of responsibilities? Potential changes of responsibilities? Changes of contact persons? </td>
+  </tr>
+  <tr>
+    <td>Project team’s organizational structure</td>
+    <td>with/without subcontractors, decision-making power of the project manager, Decision makers, Experience with similar projects</td>
+  </tr>
+  <tr>
+    <td>Existing partnerships or co-operations</td>
+    <td>Are there any co-operations between the organizations and certain software companies?
+		Are there any co-operations between the organizations and certain software companies?
+		Such partnerships often influence procurement decisions (independent of system requirements).
+	</td>
+  </tr>
+  <tr>
+    <td>Internal development or outsourcing</td>
+    <td>
+		Develop internally or outsource to external service companies?
+		Development of a product or for internal use?
+		Implies different processes in requirements analysis and decision making.
+		In the case of product development:
+		New product for a new market?
+		Improved product for an existing market?
+		Productizing of an existing (internal) system?
+		Development for internal use only?
+		Resources (Budget, Time, Personnel)
+		Fixed price or time/effort?
+		Is the project’s budget fixed or is it calculated by time or effort?
+	</td>
+  </tr>
+  <tr>
+    <td>Schedule</td>
+    <td>
+		Is the schedule flexible? Is there a fixed delivery date? 
+		Which stakeholders control the delivery date?
+		Schedule vs. functionality
+		What has higher priority: The delivery date or the functionality?
+		Release-schedule
+		At which dates should which functionality be available in which releases / versions?
+	</td>
+  </tr>
+  <tr>
+    <td>Project’s budget</td>
+    <td>Fixed or flexible? What amount is available?</td>
+  </tr>
+  <tr>
+    <td>Budget for technical resources</td>
+    <td>Buy or rent development tools? (hardware and software)</td>
+  </tr>
+  <tr>
+    <td>Team</td>
+	<td>Number of team members, qualifications, motivation, availability.</td>
+  </tr>
+
+  <tr>
+    <td>Development process</td>
+	<td>
+		Requirements concerning development process? 
+		This includes internal standards for modeling, documentation and implementation.
+	</td>
+  </tr>
+  <tr>
+    <td>Quality standards</td>
+	<td>Is the organization required to adhere to quality standards (such as ISO-9000)?</td>
+  </tr>
+  <tr>
+    <td>Development tools</td>
+	<td>Requirements related to development tools (such as CASE-Tool, database, IDE, communications software, middleware, transaction monitor).</td>
+  </tr>
+  <tr>
+    <td>Configuration and version management</td>
+	<td>Requirements concerning processes and tools</td>
+  </tr>
+  <tr>
+    <td>Test tools and processes</td>
+	<td>Requirements concerning processes and tools</td>
+  </tr>
+
+  <tr>
+    <td>Acceptance- and release processes</td>
+	<td>Data modeling and database design</td>
+  </tr>
+  <tr>
+    <td>Business processes (workflow)</td>
+	<td>Usage of external systems (e.g. write access to external databases)</td>
+  </tr>
+  <tr>
+    <td>Service Level Agreements</td>
+	<td>Requirements or standards related to availability or required service levels?</td>
+  </tr>
+
+  <tr>
+    <td>Legal Factors - Liability</td>
+	<td>
+		Are there any legal aspects related to usage or operations of the system?
+		Could the system cause loss of human life or hazard to human health?
+		Could the system impact the operations of external systems or businesses? 
+	</td>
+  </tr>
+  <tr>
+    <td>Legal Factors - Data privacy and security</td>
+	<td>Does the system store or process any data worthy of protection</td>
+  </tr>
+  <tr>
+    <td>Legal Factors - Auditing</td>
+	<td>Are any aspects of the system under legal obligation to present evidence?</td>
+  </tr>
+  <tr>
+    <td>Legal Factors - Aspects of international law</td>
+	<td>
+		Will the system be used in an international context?
+		Are there varying constraints on system usage in different countries (example: use of encryption technology)?
+	</td>
+  </tr>
+</table>
+
+
 \section Conventions Conventions
+
+\b Contents
+
+List all conventions that are relevant for the development of your software architecture.
+
+\b Form
+
+Either insert the conventions directly in this document or refer to other documents.
+
+\b Examples
+
+- Coding guidelines
+- Documentation guidelines
+- Guidelines for version and configuration management
+- Naming conventions
+
 
 */

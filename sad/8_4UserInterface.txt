@@ -1,0 +1,9 @@
+/**
+\page UserInterface User Interface
+
+
+Software systems that are used interactively by (human) users require a user interface. 
+These can be graphical, textual, or voice user interfaces.
+
+
+*/

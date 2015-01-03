@@ -1,0 +1,21 @@
+/**
+\page GenericStructures Recurring or Generic Structures and Patterns
+
+\b Motivation
+
+Sometimes a hierarchical decomposition of building blocks is insufficient for giving an overview of detailed interdependencies between individual building blocks. 
+The following sections are intended to describe generic or specific dependencies among any set of building blocks – possibly even across different levels.
+We call a dependency generic if it appears more than once in the architecture, and specific if it is unique.
+
+\b Form
+Use building block models (class diagrams, package diagrams, component diagrams, etc.) and related descriptions in the same way as in the hierarchical decomposition.
+Often it is practical to support understandability by adding specific runtime views to explain these recurring structures.
+
+
+\section GenericStructure1 Recurring or Generic Structure 1
+insert diagram and descriptions here
+
+\section GenericStructure1 Recurring or Generic Structure 2
+insert diagram and descriptions here
+
+*/

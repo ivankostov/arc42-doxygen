@@ -1,11 +1,55 @@
 /**
 \page SystemScopeAndContext System Scope and Context
 
+\b Contents
+
+The context view defines the boundaries of the system under development to distinguish it from neighboring systems. 
+It thereby identifies the system’s relevant external interfaces.
+Make sure that the interfaces are specified with all their relevant aspects 
+(what is communicated, in which format is it communicated, what is the transport medium, …), even though some popular diagrams
+(such as the UML use case diagram) represent only a few aspects of the interface.
+
+\b Motivation
+
+The interfaces to neighboring systems are among most critical and risky aspects of a project. 
+Ensure early on that you have understood them in their entirety.
+
+\b Form
+
+Various context diagram (see below)
+Lists of neighboring systems and their interfaces.
+
 \section BusinessContext Business Context
+
+\b Contents
+
+Identify all1 neighboring systems and specify all logical/business data that is exchanged with the system under development. Add data formats and communication protocols with neighboring systems and the general environment if these are not specified in detail with the relevant components.
+Motivation
+Understanding the information exchange with neighboring systems (i.e. all input flows and all output flows).
+
+\b Form
+Logical context diagram.
+In UML this can be simulated e.g. by class diagrams, use case diagrams,
+communications diagrams – i.e. all diagrams that represent the system as a black box and explain its interfaces to neighboring systems (in varying degrees of detail).
+If there are many neighboring systems you can substitute the context diagram with a table,
+including all the neighboring systems, their inputs and their outputs.
 
 \section TechnicalContext Technical Context
 
+\b Contents
+Specification of the communication channels linking your system to neighboring systems and the environment.
+\b Motivation
+Understanding of the media used for information exchange with neighboring systems, and the environment.
+\b Form
+E.g. UML deployment diagram describing channels to neighboring systems, 
+together with a mapping table of logical input and output flows of the logical context diagram (3.1) to the channels.
+3.3 
+
+
 \section ExternalInterfaces External Interfaces
+For many building blocks you can describe its interfaces directly in the black box template of the building block.
+For complex interfaces – and external interfaces are normally very complex – it is worth while to describe them in separate sections.
+Use the following interface template to guide you towards many questions that might be relevant for the interface. 
  
 \subsection ExternalInterface1 External Interface 1
 - Interface ID:

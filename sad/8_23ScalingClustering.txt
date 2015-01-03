@@ -1,0 +1,6 @@
+/**
+\page ScalingClustering Scaling Clustering
+
+How can your system grow in a way that can cope with more load or a larger number of users and still keep up performance and throughput.
+
+*/

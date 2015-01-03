@@ -1,0 +1,13 @@
+/**
+\page CommunicationAndIntegration Communication And Integration
+
+
+\b Communication: 
+
+Exchange of data between system components. Covers communications within one process or address space, between different processes (inter-process communication – IPC), and between different systems.
+
+\b Integration: 
+
+Combination of existing systems in a new context. Also known as: (Legacy) Wrapper, Gateway, Enterprise Application Integration (EAI).
+
+*/

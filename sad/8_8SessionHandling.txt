@@ -1,0 +1,8 @@
+/**
+\page SessionHandling Session Handling
+
+A session identifies an active connection between a client and a server.
+The session state must be preserved, which is esp. important if stateless protocols such as HTTP are used for communications. 
+Session handling is a critical challenge esp. for intra- and internet-systems and can strongly influence the performance of a system.
+
+*/

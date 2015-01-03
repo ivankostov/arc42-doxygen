@@ -1,0 +1,14 @@
+/**
+\page Security Security
+
+The security of software systems deals with mechanisms that ensure data confidentiality, integrity, and availability.
+Typical issues are:
+- How can data be protected during transport (e.g. via open networks such as the internet)?
+- How can communicating entities ensure mutual trust?
+- How can communicating entities identify each other and be protected against faked identities?
+- How can communicating entities prove data provenience or certify validity of data?
+
+
+The topic of IT-security often touches upon legal aspects, sometimes even international law.
+
+*/

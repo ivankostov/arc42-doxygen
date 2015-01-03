@@ -1,0 +1,12 @@
+/**
+\page Configurability Configurability
+
+The flexibility of a software system is influenced by its configurability,
+i.e. the possibility to make certain decisions about usage of the system at a late point in time.
+Configurability can occur at the following events:
+- During development: For example server, file, or directory names could be stored directly in the code (“hard-coded”).
+- During deployment or installation: Configuration information for a specific installation (such as the installation path) can be given.
+- At system startup: Information can be read dynamically before or during system startup.
+- During application execution: Configuration information is queried or read during runtime.
+
+*/

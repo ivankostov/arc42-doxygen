@@ -1,6 +1,3 @@
-@INCLUDE_PATH = ..
-@INCLUDE = master.doxy
-
 PROJECT_NAME           = "ARC42 Template"
 
 IMAGE_PATH =  images
@@ -14,14 +11,32 @@ INPUT	= 	mainpage.txt								\
 			6_RuntimeView.txt						 	\
 			7_DeploymentView.txt					 	\
 			8_0Concepts.txt								\
-			8_1OperatingSystem.txt						\
-			8_2BaseSystem.txt							\
-			8_3Middleware.txt							\
-			8_4ComponentModel.txt						\
-			8_5StabilityAndReliability.txt				\
-			8_6GUI.txt									\
-			8_7TestAndValidation.txt					\
-			8_8BuildEnvironment.txt						\
+			8_1DomainModels.txt							\
+			8_2GenericStructures.txt					\
+			8_3Persistency.txt							\
+			8_4UserInterface.txt						\
+			8_5Ergonomics.txt							\
+			8_6FlowOfControl.txt						\
+			8_7TransactionProcession.txt				\
+			8_8SessionHandling.txt						\
+			8_9Security.txt								\
+			8_10Safety.txt								\
+			8_11CommunicationAndIntegration.txt			\
+			8_12Distribution.txt						\
+			8_13PlausibilityandValidityChecks.txt		\
+			8_14ErrorHandling.txt						\
+			8_15SystemManagementandAdministration.txt	\
+			8_16LoggingTracing.txt						\
+			8_17BusinessRules.txt						\
+			8_18Configurability.txt						\
+			8_19ParallelizationandThreading.txt			\
+			8_20Internationalization.txt				\
+			8_21Migration.txt	 						\
+			8_22Testability.txt							\
+			8_23ScalingClustering.txt 					\
+			8_24HighAvailability.txt					\
+			8_25CodeGeneration.txt						\
+			8_26Build-Management.txt					\
 			9_DesignDecisions.txt				 		\
 			10_QualityScenarios.txt			 			\
 			11_TechnicalRisks.txt				  

@@ -1,0 +1,9 @@
+/**
+\page Internationalization Internationalization
+
+This section covers support for usage of the system in different countries, 
+i.e. adjusting the system to country specific attributes. Internationalization
+ (often abbreviated as “i18n” where “18” refers to the eighteen characters between the I and the n) covers translation of text, 
+ usage of character encodings, display of fonts, writing of numbers and dates, and other (external) aspects.
+
+*/

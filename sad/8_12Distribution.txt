@@ -1,0 +1,9 @@
+/**
+\page Distribution Distribution
+
+Design of software systems whose parts are executed on different – physically separated – hardware systems.
+Distribution covers issues such as calling methods on remote systems (remote procedure call – RPC or remote method invocation – RMI), 
+the transfer of data or documents among distributed parties, 
+the choice of optimal modes of interaction or communications patterns (such as synchronous / asynchronous, publish-subscribe, peer-to-peer).
+
+*/

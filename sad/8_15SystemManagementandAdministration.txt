@@ -1,0 +1,7 @@
+/**
+\page SystemManagementandAdministration System Management and Administration
+
+Larger software systems are often executed in controlled environments (data centers) under oversight of operators or administrators.
+These stakeholders require specific information on the applications’ states during runtime as well as special means of control and configuration.
+
+*/

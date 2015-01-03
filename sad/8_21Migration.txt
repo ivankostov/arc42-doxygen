@@ -1,0 +1,17 @@
+/**
+\page Migration Migration
+
+
+In many cases a new software system is intended to replace an existing legacy system.
+As an architect you should not only consider your shiny new architecture but also all organizational
+and technical aspects that must be considered for the introduction or migration of the architecture.
+
+
+Examples:
+- Concept, process, or tools for data transfer and initial data creation.
+- Concept for system introduction or temporary parallel operations of legacy system and new system.
+
+Is it necessary to migrate existing data? How do you execute any needed syntactic or semantic transformations?
+
+
+*/

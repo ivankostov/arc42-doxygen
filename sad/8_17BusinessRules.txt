@@ -1,0 +1,8 @@
+/**
+\page BusinessRules Business Rules
+
+How do you deal with business logic and business rules? 
+Is business logic implemented in the corresponding business classes or is it handled in a central component? 
+Do you use a rule engine for the interpretation of business rules (production system, forward-/backward-chaining)?
+
+*/

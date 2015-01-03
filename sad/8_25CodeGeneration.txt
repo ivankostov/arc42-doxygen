@@ -1,0 +1,7 @@
+/**
+\page CodeGeneration Code Generation
+
+How and where do you use code generators to create parts of the system from models or domain specific languages (DSL’s)?
+
+
+*/

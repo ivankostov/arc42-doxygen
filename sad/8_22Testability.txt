@@ -1,0 +1,9 @@
+/**
+\page Testability Testability
+
+Support for simple (and if possible automated) tests.
+This aspect is the basis for the important implementation pattern of “continuous integration”.
+Projects should support at least daily build-and-test cycles.
+Important keywords for this aspect are unit tests and mock objects.
+
+*/

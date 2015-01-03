@@ -1,0 +1,10 @@
+/**
+\mainpage ARC42 Template
+\author Dr. Peter Hruschka
+\author Dr. Gernot Starke
+
+
+We acknowledge that this document uses material from the arc 42 architecture 
+template, http://www.arc42.de. Created by Dr. Peter Hruschka & Dr. Gernot Starke.
+
+*/

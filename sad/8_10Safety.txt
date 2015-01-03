@@ -1,0 +1,7 @@
+/**
+\page Safety Safety
+
+The safety of software systems deals with mechanisms that ensure that human life or our environment is not endangered.
+Describe your concept here: identify those parts of the system that might endanger life and describe mechanism to ensure proper safety.
+
+*/
