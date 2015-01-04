@@ -43,7 +43,6 @@ Understanding of the media used for information exchange with neighboring system
 \b Form
 E.g. UML deployment diagram describing channels to neighboring systems, 
 together with a mapping table of logical input and output flows of the logical context diagram (3.1) to the channels.
-3.3 
 
 
 \section ExternalInterfaces External Interfaces
@@ -78,7 +77,7 @@ Description of interface data
 	+ Availability
 	+ Logging
 	+ Archiving
-- Participating Resources
+- Participating Resources
 - Syntax: Data and Formats
 	+ Data Formats
 	+ Validity & Plausibility Rules
