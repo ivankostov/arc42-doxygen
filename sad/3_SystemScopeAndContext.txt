@@ -49,7 +49,7 @@ together with a mapping table of logical input and output flows of the logical c
 For many building blocks you can describe its interfaces directly in the black box template of the building block.
 For complex interfaces – and external interfaces are normally very complex – it is worth while to describe them in separate sections.
 Use the following interface template to guide you towards many questions that might be relevant for the interface. 
- 
+
 \subsection ExternalInterface1 External Interface 1
 - Interface ID:
 	+ name
@@ -63,11 +63,9 @@ Use the following interface template to guide you towards many questions that mi
 - Business Processes
 Diagram or desciption of business processes relevant for this interface
 
-- Interface Data
-Description of interface data
+- Interface Data Description of interface data
 	+ Technical Context
 	+ Form of interaction
-
 
 - Requirements for the Interface
 - Security Aspects
@@ -89,7 +87,7 @@ Description of interface data
 Logical and technical processes
 - Semantics
 Side effects, consequences
-- Technical Infrastructure
+- Technical Infrastructure
 Technical protocols
 - Error and Exception Handling
 - Constraints and Assumptions
@@ -98,7 +96,6 @@ Technical protocols
 	+ Parallel Access
 	+ Preconditions for using the interface
 - Operating the Interface
-
 - Meta Information for the Interface
 	+ Person in charge
 	+ Costs of using the interface
@@ -115,7 +112,6 @@ Technical protocols
 \subsection ExternalInterface3 External Interface 3
 
 \subsection ExternalInterface4 External Interface 4
-
 
 
 */

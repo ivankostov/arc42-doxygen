@@ -38,12 +38,8 @@ The overview diagram describes the inner structure of the overall system in term
 It is also useful to list the most important reasons that led to this structure, esp. as relevant to the interdependencies / relationships among the building blocks at this level.
 You should also mention rejected alternatives incl. reasons for their rejection.
 The following diagram shows the main building blocks of the system and their interdependencies:
-<insert overview diagram here>
 
 Comments regarding structure and interdependencies at Level 1:
-
-
-
 
 
 Here you describe the white box view of level 1 according to the white box template.
@@ -54,7 +50,9 @@ You should also mention rejected alternatives incl. reasons for their rejection.
 
 
 The following diagram shows the main building blocks of the system and their interdependencies:
+
 insert overview diagram here
+
 Comments regarding structure and interdependencies at Level 1:
 
 \subsection BuildingBlockViewLevel1Name1 Building Block Name 1
@@ -115,7 +113,7 @@ Blackbox description
 \subsubsection BuildingBlockViewLevel2Name1Relationships Description of Relationships
 \subsubsection BuildingBlockViewLevel2Name1Issues Open Issues
 
-\subsection BuildingBlockViewLevel2Name1 Building Block Name 2
+\subsection BuildingBlockViewLevel2Name2 Building Block Name 2
 Whitebox description
 \subsubsection BuildingBlockViewLevel2Name21 Building Block Name 2.1
 Blackbox description

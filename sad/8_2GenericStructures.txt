@@ -15,7 +15,7 @@ Often it is practical to support understandability by adding specific runtime vi
 \section GenericStructure1 Recurring or Generic Structure 1
 insert diagram and descriptions here
 
-\section GenericStructure1 Recurring or Generic Structure 2
+\section GenericStructure2 Recurring or Generic Structure 2
 insert diagram and descriptions here
 
 */
