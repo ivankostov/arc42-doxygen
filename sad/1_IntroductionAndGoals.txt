@@ -30,11 +30,13 @@ This essential architecture driver must not be neglected even though the quality
 Short textual description, probably in tabular use-case format.
 The business context should in any case refer to the corresponding requirements documents.
 
-Examples:
+\b Examples
+
 - Short descriptions of the most important:
 - business processes
 - functional requirements
-- non-functional requirements and other constraints (the most important ones must be covered as architecture goals or are listed in the “Constraints” section), and/or quantity structures
+- non-functional requirements and other constraints (the most important ones must be covered as architecture goals or are listed in the “Constraints” section), and/or 
+- quantity structures
 - background information
 
 Here you can reuse parts of the requirements documents – but keep these excerpts short and balance readability against avoidance of redundancy.
@@ -59,13 +61,15 @@ If you as an architect do not know how the quality of your work can be judged �
 \b Form
 
 Simple tabular representation, ordered by priorities
-Background Information
+
+\b Background Information
+
 NEVER start developing an architecture if these goals have not been put into writing and have not been signed by the major stakeholders.
 
-We have endured projects lacking defined quality goals much too often. We do not like to suffer, therefore we are by now highly convinced that the few hours spent on collecting quality goals are well invested.
+\note We have endured projects lacking defined quality goals much too often. We do not like to suffer, therefore we are by now highly convinced that the few hours spent on collecting quality goals are well invested.
 PH & GS.
 
-Sources:
+\b Sources:
 
 The DIN/ISO 92000 Standard contains an extensive set of possible quality goals.
 Or use chapters 10 – 17 of the VOLERE template as a starting point (www.volere.co.uk).
@@ -95,7 +99,8 @@ A list of the most important persons or organizations that are affected by can c
 
 \b Motivation
 
-If you do not know the persons participating in or concerned with the project you may get nasty surprises later in the development process. Should your project manager maintain this list, make sure that all the people influencing the architecture are part of it.
+If you do not know the persons participating in or concerned with the project you may get nasty surprises later in the development process. 
+Should your project manager maintain this list, make sure that all the people influencing the architecture are part of it.
 
 \b Form
 
