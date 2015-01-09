@@ -7,6 +7,7 @@ alternative terms:
 - Dynamic view
 - Process view
 - Workflow view
+
 This view describes the behavior and interaction of the system’s building blocks as runtime elements (processes, tasks, activities, threads, …).
 Select interesting runtime scenarios such as:
 - How are the most important use cases executed by the architectural building blocks?
@@ -14,7 +15,8 @@ Select interesting runtime scenarios such as:
 - How do the system’s components co-operate with external and pre-existing components?
 - How is the system started (covering e.g. required start scripts, dependencies on external systems, databases, communications systems, etc.)?
 
-Note: The main criterion for the choice of possible scenarios (sequences, workflows) is their architectural relevancy. It is not important to describe a large number of scenarios. You should rather document a representative selection.
+\note The main criterion for the choice of possible scenarios (sequences, workflows) is their architectural relevancy. It is not important to describe a large number of scenarios. You should rather document a representative selection.
+
 Candidates are:
 -# The top 3 – 5 use cases
 -# System startup
@@ -36,13 +38,13 @@ The UML allows to distinguish between active and passive objects.
 
 
 \section RuntimeScenario1 Runtime Scenario 1
-Runtime diagram (or other adequate description of scenario!)
-Description of the notable aspects of the interactions between the building block instances depicted in this diagram.
++ Runtime diagram (or other adequate description of scenario!)
++ Description of the notable aspects of the interactions between the building block instances depicted in this diagram.
 
 \section RuntimeScenario2 Runtime Scenario 2
 
-Runtime diagram  (or other adequate description of scenario!)
-Description of the notable aspects of the interactions between the building block instances depicted in this diagram.
++ Runtime diagram  (or other adequate description of scenario!)
++ Description of the notable aspects of the interactions between the building block instances depicted in this diagram.
 
 
 */

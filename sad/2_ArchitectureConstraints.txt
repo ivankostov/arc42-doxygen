@@ -71,7 +71,10 @@ This category covers hard- and software infrastructure, applied technologies (op
   </tr>
   <tr>
     <td>Availability of the runtime environment</td>
-    <td>Data center with 7x24 uptime?</td>
+    <td>
+    	Data center with 7x24 uptime?
+    	Will there be service times that cause reduced availability of the system or thereof?
+  </td>
   </tr>
   <tr>
     <td>Graphical user interface</td>
@@ -118,18 +121,25 @@ This category covers hard- and software infrastructure, applied technologies (op
 Enter all organizational, structural, and resource-related constraints.
 This category also covers standards and legal constraints that you must comply with.
 
+\subsection OrganizationandStructureConstraints Organization and Structure Constraints
+
+\b Example:
+
 <table border="1">
   <tr>
     <th>Constraint</th>
     <th>Description</th>
-  </tr>
   <tr>
-    <td>Organization and Structure</td>
-    <td>Sponsor’s organizational structure. Potential changes of responsibilities? Potential changes of responsibilities? Changes of contact persons? </td>
+    <td>Sponsor’s organizational structure. </td>
+    <td> Potential changes of responsibilities? Potential changes of responsibilities? Changes of contact persons? </td>
   </tr>
   <tr>
     <td>Project team’s organizational structure</td>
-    <td>with/without subcontractors, decision-making power of the project manager, Decision makers, Experience with similar projects</td>
+    <td>with/without subcontractors, decision-making power of the project manager </td> 
+  </tr>
+  <tr>  
+    <td> Decision makers </td>
+    <td> Experience with similar projects </td>
   </tr>
   <tr>
     <td>Existing partnerships or co-operations</td>
@@ -149,21 +159,34 @@ This category also covers standards and legal constraints that you must comply w
 		Improved product for an existing market?
 		Productizing of an existing (internal) system?
 		Development for internal use only?
-		Resources (Budget, Time, Personnel)
-		Fixed price or time/effort?
-		Is the project’s budget fixed or is it calculated by time or effort?
 	</td>
+  </tr>	
+</table>
+
+
+\subsection ResourceConstraints Resources ( Budget, Time, Personnel )
+
+\b Example:
+
+<table border="1">
+  <tr>
+	<td> Fixed price or time/effort? </td>
+	<td> Is the project’s budget fixed or is it calculated by time or effort? </td>
   </tr>
   <tr>
     <td>Schedule</td>
     <td>
 		Is the schedule flexible? Is there a fixed delivery date? 
 		Which stakeholders control the delivery date?
-		Schedule vs. functionality
-		What has higher priority: The delivery date or the functionality?
-		Release-schedule
-		At which dates should which functionality be available in which releases / versions?
 	</td>
+  </tr>
+  <tr>
+		<td> Schedule vs. functionality </td>
+		<td> What has higher priority: The delivery date or the functionality? </td>
+  </tr>
+  <tr>
+		<td> Release-schedule </td>
+		<td> At which dates should which functionality be available in which releases / versions? </td>
   </tr>
   <tr>
     <td>Project’s budget</td>
@@ -177,7 +200,14 @@ This category also covers standards and legal constraints that you must comply w
     <td>Team</td>
 	<td>Number of team members, qualifications, motivation, availability.</td>
   </tr>
+</table>
 
+
+\subsection OrganizationalStandards Organizational Standards
+
+\b Example:
+
+<table border="1">
   <tr>
     <td>Development process</td>
 	<td>
@@ -191,7 +221,10 @@ This category also covers standards and legal constraints that you must comply w
   </tr>
   <tr>
     <td>Development tools</td>
-	<td>Requirements related to development tools (such as CASE-Tool, database, IDE, communications software, middleware, transaction monitor).</td>
+	<td>
+		Requirements related to development tools 
+		(such as CASE-Tool, database, IDE, communications software, middleware, transaction monitor).
+	</td>
   </tr>
   <tr>
     <td>Configuration and version management</td>
@@ -201,22 +234,29 @@ This category also covers standards and legal constraints that you must comply w
     <td>Test tools and processes</td>
 	<td>Requirements concerning processes and tools</td>
   </tr>
-
   <tr>
     <td>Acceptance- and release processes</td>
-	<td>Data modeling and database design</td>
-  </tr>
-  <tr>
-    <td>Business processes (workflow)</td>
-	<td>Usage of external systems (e.g. write access to external databases)</td>
+	<td>
+		Data modeling and database design. Business processes (workflow)
+		Usage of external systems (e.g. write access to external databases)
+	</td>
   </tr>
   <tr>
     <td>Service Level Agreements</td>
 	<td>Requirements or standards related to availability or required service levels?</td>
   </tr>
+</table>
 
+
+\subsection LegalFactors Legal Factors
+
+
+
+\b Example: 
+
+<table border="1">
   <tr>
-    <td>Legal Factors - Liability</td>
+    <td>Liability</td>
 	<td>
 		Are there any legal aspects related to usage or operations of the system?
 		Could the system cause loss of human life or hazard to human health?
@@ -224,15 +264,15 @@ This category also covers standards and legal constraints that you must comply w
 	</td>
   </tr>
   <tr>
-    <td>Legal Factors - Data privacy and security</td>
-	<td>Does the system store or process any data worthy of protection</td>
+    <td>Data privacy and security</td>
+	<td>Does the system store or process any data worthy of protection?</td>
   </tr>
   <tr>
-    <td>Legal Factors - Auditing</td>
+    <td>Auditing</td>
 	<td>Are any aspects of the system under legal obligation to present evidence?</td>
   </tr>
   <tr>
-    <td>Legal Factors - Aspects of international law</td>
+    <td>Aspects of international law</td>
 	<td>
 		Will the system be used in an international context?
 		Are there varying constraints on system usage in different countries (example: use of encryption technology)?

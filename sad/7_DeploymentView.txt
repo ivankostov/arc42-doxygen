@@ -29,12 +29,12 @@ You should abstract these to aspects relevant for software deployment.
 \section InfrastructureLevel1 Infrastructure Level 1
 
 \subsection DeploymentDiagramLevel1 Deployment Diagram Level 1
-Shows the deployment of the overall system to 1 – n processors or sites as well as the physical connections among these elements.
-Lists the most important reasons that led to this deployment structure, i.e. the specific selection of nodes and channels.
-Should also mention rejected alternatives incl. reasons for their rejection.
++ Shows the deployment of the overall system to 1 – n processors or sites as well as the physical connections among these elements.
++ Lists the most important reasons that led to this deployment structure, i.e. the specific selection of nodes and channels.
++ Should also mention rejected alternatives incl. reasons for their rejection.
 
 \subsection Level1Processor1 Processor1
-< insert node template here>
+\note insert node template here
 
 node template:
 - Description
@@ -44,10 +44,10 @@ node template:
 - Open issues
 
 \subsection Level1Processor2 Processor2
-< insert node template here>
+\note insert node template here
 
 \subsection Level1ProcessorN Processor n
-< insert node template here>
+\note insert node template here
 
 \subsection Level1Channel1 Channel 1
 
@@ -57,7 +57,8 @@ Specification of the channel’s attributes, as relevant for software architectu
 
 \b Motivation
 
-Specify at least those attributes of the communications channels that you need for proving fulfillment of non-functional requirements such as maximal throughput, probability for faults, etc.
+Specify at least those attributes of the communications channels that you need for proving fulfillment of non-functional requirements
+ such as maximal throughput, probability for faults, etc.
 
 \b Form
 

@@ -4,11 +4,13 @@
 
 Persistency means moving data from (volatile) memory to a durable storage medium (and back).
 Some of the data that a software system is processing must be written to and read from persistent storage media.
-Volatile storage media (main memory or cache) are not designed for permanent storage. Data is lost if the hardware is switched off.
-The amount of data processed by commercial software systems normally exceeds the capacity of main memory.
-Hard disks, optical media and tapes often contain large amounts of existing business data that represent a significant investment.
++ Volatile storage media (main memory or cache) are not designed for permanent storage. Data is lost if the hardware is switched off.
++ The amount of data processed by commercial software systems normally exceeds the capacity of main memory.
++ Hard disks, optical media and tapes often contain large amounts of existing business data that represent a significant investment.
+
 Persistency is a technical issue that normally does not appear as part of the actual business functionality.
 An architect must deal with this issue nevertheless because most software systems require efficient access to persistently stored data. 
-This is relevant for essentially all commercial and most technical systems; embedded systems on the other hand often differ in their data management requirements.
+This is relevant for essentially all commercial and most technical systems; 
+embedded systems on the other hand often differ in their data management requirements.
 
 */

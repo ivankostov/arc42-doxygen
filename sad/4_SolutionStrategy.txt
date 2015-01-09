@@ -7,7 +7,8 @@ A short summary and explanation of the fundamental solution ideas and strategies
 
 \b Motivation
 
-An architecture is often based upon some key solution ideas or strategies. These ideas should be familiar to everyone involved into the architecture. 
+An architecture is often based upon some key solution ideas or strategies. 
+These ideas should be familiar to everyone involved into the architecture. 
 
 \b Form
 

@@ -9,9 +9,10 @@ Fill in these chapters if there is NO building block that covers this aspect. If
 \b Motivation
 
 Some concept cannot be “factored” into a separate building block of the architecture (e.g. the topic “security”). This section of the template is the location where you can describe all decision for such a cross cutting topic in one central place. Nevertheless, you have to make sure that all your building blocks conform to such decisions.
-Form
-.. can be varied. Some concepts are plain natural language text with a freely chosen structure, some others may include models/scenarios using notations that are also applied in architecture views.
 
+\b Form
+
+.. can be varied. Some concepts are plain natural language text with a freely chosen structure, some others may include models/scenarios using notations that are also applied in architecture views.
 
 
 The section consist from the following pages:

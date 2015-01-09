@@ -16,8 +16,8 @@ Ensure early on that you have understood them in their entirety.
 
 \b Form
 
-Various context diagram (see below)
-Lists of neighboring systems and their interfaces.
++ Various context diagram (see below)
++ Lists of neighboring systems and their interfaces.
 
 \section BusinessContext Business Context
 
@@ -28,19 +28,27 @@ Motivation
 Understanding the information exchange with neighboring systems (i.e. all input flows and all output flows).
 
 \b Form
+
 Logical context diagram.
+
 In UML this can be simulated e.g. by class diagrams, use case diagrams,
 communications diagrams – i.e. all diagrams that represent the system as a black box and explain its interfaces to neighboring systems (in varying degrees of detail).
+
 If there are many neighboring systems you can substitute the context diagram with a table,
 including all the neighboring systems, their inputs and their outputs.
 
 \section TechnicalContext Technical Context
 
 \b Contents
+
 Specification of the communication channels linking your system to neighboring systems and the environment.
+
 \b Motivation
+
 Understanding of the media used for information exchange with neighboring systems, and the environment.
+
 \b Form
+
 E.g. UML deployment diagram describing channels to neighboring systems, 
 together with a mapping table of logical input and output flows of the logical context diagram (3.1) to the channels.
 
@@ -84,11 +92,11 @@ Diagram or desciption of business processes relevant for this interface
 - Syntax: Methods/Functions
 	+ Check data
 - Interface Process
-Logical and technical processes
+	+ Logical and technical processes
 - Semantics
-Side effects, consequences
+	+ Side effects, consequences
 - Technical Infrastructure
-Technical protocols
+	+ Technical protocols
 - Error and Exception Handling
 - Constraints and Assumptions
 	+ Access Rights

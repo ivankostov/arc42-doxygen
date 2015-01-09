@@ -5,9 +5,12 @@
 There are two ways of documenting an application’s status during runtime: Logging and Tracing. 
 In both cases the application is extended with function or method calls that write state information, but there is a difference in their usage:
 - Logging can cover business or technical aspects or any combination of both.
-Business logs are normally prepared for end users, administrators or operators. They  contain information on the business processes that  are executed by the application. This kind of logging may also be related to auditing.
-Technical logs contain information for operators or developers. These are used for error detection and system optimization.
-- Tracing is intended to provide debugging information for developers or support personnel. It is primarily used for error detection and analysis.
+	+ Business logs are normally prepared for end users, administrators or operators. 
+	  They  contain information on the business processes that  are executed by the application. 
+	  This kind of logging may also be related to auditing.
+	+ Technical logs contain information for operators or developers. These are used for error detection and system optimization.
+- Tracing is intended to provide debugging information for developers or support personnel. 
+It is primarily used for error detection and analysis.
 
 
 */
